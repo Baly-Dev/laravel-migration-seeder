@@ -1,0 +1,43 @@
+/* reset */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imports */
+@import './partials/header';
+@import './partials/footer';
+
+/* globals */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utitlities */
+.container-large{
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+section#hero{
+    padding: 60px 0px;
+    div{
+        text-align: center;
+    }
+}

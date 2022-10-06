@@ -1,0 +1,14 @@
+footer{
+    height: 40px;
+    border-top: 1px solid #dddddd;
+    div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        small{
+            color: #262626;
+        }
+    }
+}

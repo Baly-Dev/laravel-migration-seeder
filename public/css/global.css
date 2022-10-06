@@ -1,0 +1,81 @@
+/* reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* imports */
+header {
+  height: 60px;
+  border-bottom: 1px solid #dddddd;
+}
+header nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .logo a {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #262626;
+}
+header nav .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+header nav .menu a {
+  color: #262626;
+  font-weight: 500;
+}
+
+footer {
+  height: 40px;
+  border-top: 1px solid #dddddd;
+}
+footer div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer div small {
+  color: #262626;
+}
+
+/* globals */
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utitlities */
+.container-large {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section#hero {
+  padding: 60px 0px;
+}
+section#hero div {
+  text-align: center;
+}
